@@ -3,9 +3,9 @@ import React from 'react';
 
 export default class FaqItem extends React.Component {
     // static displayName = 'FaqItem';
-    // zakomentowane ponieważ użyłem
-    // dodatkowej konfiguracji dla babel-a
-    // tj. [transform-react-class-displayname]
+    // zakomentowane, ponieważ użyłem
+    // dodatkowej konfiguracji dla babela
+    // tj. [plugin "add-react-displayname"]
     render() {
         const {header, content, isOpen} = this.props;
         const style = { 
